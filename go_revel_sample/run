@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+revel run go_revel_sample prod $UID

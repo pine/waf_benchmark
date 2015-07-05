@@ -1,0 +1,6 @@
+ #!/bin/bash
+
+PORT=`bash -lc 'echo $UID'`
+
+export RAILS_ENV=production
+bundle exec -- rackup --port $PORT

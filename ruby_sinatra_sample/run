@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PORT=`bash -lc 'echo $UID'`
+
+bundle exec -- ruby app.rb -p $PORT -e production

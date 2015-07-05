@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+npm install --deployment
+NODE_ENV=production PORT=$UID npm start

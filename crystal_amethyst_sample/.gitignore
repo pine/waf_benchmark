@@ -1,0 +1,8 @@
+/.crystal
+/.deps
+/libs
+
+*.log
+
+/app
+
