@@ -1,0 +1,3 @@
+#!/bin/bash
+
+carton exec -- perl ./script/perl_amon2_sample-server --port=$UID

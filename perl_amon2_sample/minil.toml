@@ -1,0 +1,3 @@
+name="perl_amon2_sample"
+[build]
+build_class = "builder::MyBuilder"
