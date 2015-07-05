@@ -17,7 +17,7 @@ router.get('/benchmark/simple', function(req, res, next) {
 });
 
 router.get('/benchmark/cpu', function(req, res, next) {
-  var max = parseInt(req.param('max'), 10);
+  var max = parseInt(req.query.max, 10);
 
   res.json({
       ok    : true,
