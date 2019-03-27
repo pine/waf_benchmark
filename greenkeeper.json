@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "node_express_sample/package.json"
+      ]
+    }
+  }
+}
